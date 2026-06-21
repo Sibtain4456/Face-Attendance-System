@@ -1,0 +1,78 @@
+🔹 STEP 1: PROJECT DEFINITION & SCOPE
+
+ 1️⃣ Define the Problem Clearly
+ -Manual attendance is time-consuming, error-prone, and allows proxy attendance.
+
+2️⃣ Fix the Exact Use Case
+ ✅ Chosen use case
+  -One classroom
+  -4-5 students
+  -One camera (laptop webcam)
+  -Indoor lighting
+  -Offline system
+
+3️⃣ Define Inputs, Process, Outputs (IPO Model)
+ #Input
+  Live video from webcam
+  Pre-stored face images of students
+ 
+ #Process
+ -Face detection
+ -Face encoding
+ -Face matching
+ -Attendance validation
+
+ #Output
+ -Student name on screen
+ -Attendance marked in CSV/Excel with date & time
+
+4️⃣ Decide the Success Criteria
+ -Recognition accuracy ≥ 85% (for known faces)
+ -Same student not marked twice
+ -Attendance stored correctly
+ -Demo runs without internet
+
+5️⃣ Lock the Constraints(VERY IMPORTANT)
+ - is designed for controlled classroom environments
+ -Performance depends on lighting and camera quality
+ -Only registered faces are recognized
+
+6️⃣ Finalize the Team Responsibility
+ -Member 1 → Dataset & image capture
+ -Member 2 → Face detection & encoding logic
+ -Member 3 → Recognition + attendance storage
+ -Member 4 → Flowchart, PPT, explanation
+
+7️⃣ One-Line Project Aim
+ -To design and implement a smart attendance system that automatically identifies students using face recognition and records attendance accurately.
+
+🔹 STEP 2: ENVIRONMENT SETUP & TECHNOLOGY SELECTION
+ 1️⃣ The Technology Stack
+ -Programming Language: Python 3.9
+ -Face Detection: HOG + CNN (via face-recognition library)
+ -Face Recognition: 128-D face encodings
+ -Computer Vision: OpenCV
+ -Storage: CSV / Excel (local)
+   :Why this works:
+    -Fast to implement
+    -Stable
+    -Explainable in viva
+    -No GPU required
+
+ 2️⃣ Create a Clean Virtual Environment
+ - python -m venv face_attendance_env
+   Activate it:
+ - face_attendance_env\Scripts\activate
+
+ 3️⃣ Install Libraries
+  pip install opencv-python
+  pip install numpy
+  pip install pandas
+  pip install face-recognition
+
+ If face-recognition fails:
+  -Install CMake
+  -Install dlib separately
+
+4️⃣ Verify Webcam Access
+

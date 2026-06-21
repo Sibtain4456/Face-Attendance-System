@@ -1,0 +1,3 @@
+python src/recognize_attendance.py
+del attendance\attendance_*.csv
+venv/Scripts/activate

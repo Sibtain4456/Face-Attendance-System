@@ -1,0 +1,12 @@
+Attendance Summary - 2026-02-09
+==============================
+Total Students : 3
+Present        : 2
+Absent         : 1
+
+Present Students:
+- Sibtain
+- fardin
+
+Absent Students:
+- faiyaz
