@@ -4,10 +4,9 @@
 It reduces manual effort, prevents proxy attendance, and ensures accurate real-time records
 
 ### Project Members
-1. KHAN MOHAMMAD BASHARAT MOHAMMAD HAYAT  [ Team Leader ] 
-2. KHAN MOHD SIBTAIN RAZA ABDUL LATIF 
-3. MEMON AHMED SUBHAN 
-4. SHAIKH MOHAMMAD FAIYAZ 
+1. KHAN MOHD SIBTAIN RAZA [ Team Leader ]
+2. KHAN MOHAMMAD BASHARAT MOHAMMAD HAYAT  
+3. SHAIKH MOHAMMAD FAIYAZ 
 
 ### Project Guides
 1. PROF. SACHIN CHARBHE  [ Primary Guide ] 
@@ -17,7 +16,7 @@ Follow these steps to set up and run the project locally:
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/Sibtain4456/Face-Attendance-System.git>
    cd Face_Attendance_System
    ```
 
